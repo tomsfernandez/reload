@@ -1,9 +1,3 @@
-/*
- * Video.cpp
- *
- *  Created on: 27 jun. 2017
- *      Author: alejandro
- */
 
 #include "Video.h"
 #include <iostream>

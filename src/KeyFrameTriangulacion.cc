@@ -1,9 +1,4 @@
-/*
- * KeyFrameTriangulacion.cc
- *
- *  Created on: 19/1/2017
- *      Author: alejandro
- */
+
 
 #include "KeyFrame.h"	// Incluye MapPoint.h, que incluye opencv
 #include "KeyFrameTriangulacion.h"

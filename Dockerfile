@@ -26,7 +26,7 @@ RUN cd ~ && mkdir libs && cd libs && \
             cd build && \ 
             cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local .. && \ 
             make install
-RUN cd ~/libs && wget bitbucket.org/eigen/eigen/get/3.3.4.tar.gz \ 
+RUN cd ~/libs && wget https://bitbucket.org/eigen/eigen/get/3.3.4.tar.gz \ 
                 && tar -xvzf 3.3.4.tar.gz \ 
                 && rm 3.3.4.tar.gz \ 
                 && mv eigen-eigen-5a0156e40feb eigen-3.3.4

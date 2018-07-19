@@ -1,44 +1,4 @@
-/*
- * Serializer.cpp
- *
- * Este archivo intenta reunir todos los elementos necesarios para la serialización del mapa de orb-slam2.
- * No todo el código está aquí, es necesario modificar las declaraciones de las clases KeyFrame, Map y MapPoint
- * agregando declaraciones para constructor por defecto, método serialize y clases friend.
- * En la MapPoint.h se debe agregar dentro de la declaración de la clase:
- *
-  	MapPoint();
-	friend class boost::serialization::access;
-	friend class Serializer;
-	template<class Archivo> void serialize(Archivo&, const unsigned int);
- *
- * En KeyFrame.h se debe agregar dentro de la declaración de la clase:
- *
-  	KeyFrame();
-    friend class boost::serialization::access;
-	friend class Serializer;
-	template<class Archivo> void serialize(Archivo&, const unsigned int);
- *
- * En Map.h se debe agregar dentro de la declaración de la clase:
- *
-	friend class Serializer;
- *
- * Map no requiere constructor por defecto.
- *
- * Finalmente, en main.cc o en cualquier otro lugar se debe crear una única instancia de Serializer, pasando el sistema de orb-slam2 como argumento.
- *
- *
- * Partes de este archivo
- *
- * 1- includes
- * 2- defines: macros para la expansión de boost::serialization
- * 3- Serialize de OpenCV: KeyPoint y Map
- * 4- MapPoint: constructor por defecto y definición de MapPoint::serialize
- * 5- KeyFrame: constructor por defecto y definición de KeyFrame::serialize
- * 6- Serializer: definición de la clase.
- *
- *  Created on: 6/1/2017
- *      Author: alejandro
- */
+
 
 #include <typeinfo>
 

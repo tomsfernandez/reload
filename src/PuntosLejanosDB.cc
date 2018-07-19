@@ -1,9 +1,3 @@
-/*
- * PuntosLejanosDB.cc
- *
- *  Created on: 10/2/2017
- *      Author: alejandro
- */
 
 #include "PuntosLejanosDB.h"
 
