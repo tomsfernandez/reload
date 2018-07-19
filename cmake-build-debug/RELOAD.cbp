@@ -17,6 +17,54 @@
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TomasGreencode/home/projects/reload/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="reload">
+				<Option output="C:/Users/TomasGreencode/home/projects/reload/build/reload.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/TomasGreencode/home/projects/reload/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/TomasGreencode/home/projects/reload"/>
+					<Add directory="C:/Users/TomasGreencode/home/projects/reload/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TomasGreencode/home/projects/reload/cmake-build-debug/Makefile&quot;  VERBOSE=1 reload"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TomasGreencode/home/projects/reload/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TomasGreencode/home/projects/reload/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TomasGreencode/home/projects/reload/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reload/fast">
+				<Option output="C:/Users/TomasGreencode/home/projects/reload/build/reload.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/TomasGreencode/home/projects/reload/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/TomasGreencode/home/projects/reload"/>
+					<Add directory="C:/Users/TomasGreencode/home/projects/reload/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TomasGreencode/home/projects/reload/cmake-build-debug/Makefile&quot;  VERBOSE=1 reload/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TomasGreencode/home/projects/reload/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TomasGreencode/home/projects/reload/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TomasGreencode/home/projects/reload/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="RELOAD">
 				<Option output="C:/Users/TomasGreencode/home/projects/reload/cmake-build-debug/libRELOAD.dll" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/TomasGreencode/home/projects/reload/cmake-build-debug"/>
@@ -75,54 +123,6 @@
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TomasGreencode/home/projects/reload/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="os1_run">
-				<Option output="C:/Users/TomasGreencode/home/projects/reload/build/os1_run.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/TomasGreencode/home/projects/reload/build"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/TomasGreencode/home/projects/reload"/>
-					<Add directory="C:/Users/TomasGreencode/home/projects/reload/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TomasGreencode/home/projects/reload/cmake-build-debug/Makefile&quot;  VERBOSE=1 os1_run"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TomasGreencode/home/projects/reload/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TomasGreencode/home/projects/reload/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TomasGreencode/home/projects/reload/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="os1_run/fast">
-				<Option output="C:/Users/TomasGreencode/home/projects/reload/build/os1_run.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/TomasGreencode/home/projects/reload/build"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/TomasGreencode/home/projects/reload"/>
-					<Add directory="C:/Users/TomasGreencode/home/projects/reload/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TomasGreencode/home/projects/reload/cmake-build-debug/Makefile&quot;  VERBOSE=1 os1_run/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TomasGreencode/home/projects/reload/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TomasGreencode/home/projects/reload/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TomasGreencode/home/projects/reload/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="C:/Users/TomasGreencode/home/projects/reload/cmake-build-debug"/>
 				<Option type="4"/>
@@ -134,8 +134,81 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/TomasGreencode/home/projects/reload/src/Converter.cc">
+			<Option target="RELOAD"/>
+		</Unit>
+		<Unit filename="C:/Users/TomasGreencode/home/projects/reload/src/Frame.cc">
+			<Option target="RELOAD"/>
+		</Unit>
+		<Unit filename="C:/Users/TomasGreencode/home/projects/reload/src/FrameDrawer.cc">
+			<Option target="RELOAD"/>
+		</Unit>
+		<Unit filename="C:/Users/TomasGreencode/home/projects/reload/src/Initializer.cc">
+			<Option target="RELOAD"/>
+		</Unit>
+		<Unit filename="C:/Users/TomasGreencode/home/projects/reload/src/KeyFrame.cc">
+			<Option target="RELOAD"/>
+		</Unit>
+		<Unit filename="C:/Users/TomasGreencode/home/projects/reload/src/KeyFrameDatabase.cc">
+			<Option target="RELOAD"/>
+		</Unit>
+		<Unit filename="C:/Users/TomasGreencode/home/projects/reload/src/KeyFrameTriangulacion.cc">
+			<Option target="RELOAD"/>
+		</Unit>
+		<Unit filename="C:/Users/TomasGreencode/home/projects/reload/src/LocalMapping.cc">
+			<Option target="RELOAD"/>
+		</Unit>
+		<Unit filename="C:/Users/TomasGreencode/home/projects/reload/src/LoopClosing.cc">
+			<Option target="RELOAD"/>
+		</Unit>
+		<Unit filename="C:/Users/TomasGreencode/home/projects/reload/src/Map.cc">
+			<Option target="RELOAD"/>
+		</Unit>
+		<Unit filename="C:/Users/TomasGreencode/home/projects/reload/src/MapDrawer.cc">
+			<Option target="RELOAD"/>
+		</Unit>
+		<Unit filename="C:/Users/TomasGreencode/home/projects/reload/src/MapPoint.cc">
+			<Option target="RELOAD"/>
+		</Unit>
+		<Unit filename="C:/Users/TomasGreencode/home/projects/reload/src/ORBextractor.cc">
+			<Option target="RELOAD"/>
+		</Unit>
+		<Unit filename="C:/Users/TomasGreencode/home/projects/reload/src/ORBmatcher.cc">
+			<Option target="RELOAD"/>
+		</Unit>
+		<Unit filename="C:/Users/TomasGreencode/home/projects/reload/src/Optimizer.cc">
+			<Option target="RELOAD"/>
+		</Unit>
+		<Unit filename="C:/Users/TomasGreencode/home/projects/reload/src/PnPsolver.cc">
+			<Option target="RELOAD"/>
+		</Unit>
+		<Unit filename="C:/Users/TomasGreencode/home/projects/reload/src/PuntoLejano.cc">
+			<Option target="RELOAD"/>
+		</Unit>
+		<Unit filename="C:/Users/TomasGreencode/home/projects/reload/src/PuntosLejanosDB.cc">
+			<Option target="RELOAD"/>
+		</Unit>
+		<Unit filename="C:/Users/TomasGreencode/home/projects/reload/src/Serializer.cpp">
+			<Option target="RELOAD"/>
+		</Unit>
+		<Unit filename="C:/Users/TomasGreencode/home/projects/reload/src/Sim3Solver.cc">
+			<Option target="RELOAD"/>
+		</Unit>
+		<Unit filename="C:/Users/TomasGreencode/home/projects/reload/src/System.cc">
+			<Option target="RELOAD"/>
+		</Unit>
+		<Unit filename="C:/Users/TomasGreencode/home/projects/reload/src/Tracking.cc">
+			<Option target="RELOAD"/>
+		</Unit>
+		<Unit filename="C:/Users/TomasGreencode/home/projects/reload/src/Video.cpp">
+			<Option target="RELOAD"/>
+		</Unit>
+		<Unit filename="C:/Users/TomasGreencode/home/projects/reload/src/Viewer.cc">
+			<Option target="RELOAD"/>
+		</Unit>
 		<Unit filename="C:/Users/TomasGreencode/home/projects/reload/src/main.cc">
-			<Option target="os1_run"/>
+			<Option target="reload"/>
+			<Option target="RELOAD"/>
 		</Unit>
 		<Unit filename="C:/Users/TomasGreencode/home/projects/reload/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
