@@ -13,165 +13,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70fda6c8-a7a0-4a8a-b6e3-83b66f4c1e03" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" afterPath="$PROJECT_DIR$/Dockerfile" />
-      <change beforePath="$PROJECT_DIR$/header/Converter.h" afterPath="$PROJECT_DIR$/include/Converter.h" />
-      <change beforePath="$PROJECT_DIR$/header/Frame.h" afterPath="$PROJECT_DIR$/include/Frame.h" />
-      <change beforePath="$PROJECT_DIR$/header/FrameDrawer.h" afterPath="$PROJECT_DIR$/include/FrameDrawer.h" />
-      <change beforePath="$PROJECT_DIR$/header/Initializer.h" afterPath="$PROJECT_DIR$/include/Initializer.h" />
-      <change beforePath="$PROJECT_DIR$/header/KeyFrame.h" afterPath="$PROJECT_DIR$/include/KeyFrame.h" />
-      <change beforePath="$PROJECT_DIR$/header/KeyFrameDatabase.h" afterPath="$PROJECT_DIR$/include/KeyFrameDatabase.h" />
-      <change beforePath="$PROJECT_DIR$/header/KeyFrameTriangulacion.h" afterPath="$PROJECT_DIR$/include/KeyFrameTriangulacion.h" />
-      <change beforePath="$PROJECT_DIR$/header/LocalMapping.h" afterPath="$PROJECT_DIR$/include/LocalMapping.h" />
-      <change beforePath="$PROJECT_DIR$/header/LoopClosing.h" afterPath="$PROJECT_DIR$/include/LoopClosing.h" />
-      <change beforePath="$PROJECT_DIR$/header/Map.h" afterPath="$PROJECT_DIR$/include/Map.h" />
-      <change beforePath="$PROJECT_DIR$/header/MapDrawer.h" afterPath="$PROJECT_DIR$/include/MapDrawer.h" />
-      <change beforePath="$PROJECT_DIR$/header/MapPoint.h" afterPath="$PROJECT_DIR$/include/MapPoint.h" />
-      <change beforePath="$PROJECT_DIR$/header/ORBVocabulary.h" afterPath="$PROJECT_DIR$/include/ORBVocabulary.h" />
-      <change beforePath="$PROJECT_DIR$/header/ORBextractor.h" afterPath="$PROJECT_DIR$/include/ORBextractor.h" />
-      <change beforePath="$PROJECT_DIR$/header/ORBmatcher.h" afterPath="$PROJECT_DIR$/include/ORBmatcher.h" />
-      <change beforePath="$PROJECT_DIR$/header/Optimizer.h" afterPath="$PROJECT_DIR$/include/Optimizer.h" />
-      <change beforePath="$PROJECT_DIR$/header/PnPsolver.h" afterPath="$PROJECT_DIR$/include/PnPsolver.h" />
-      <change beforePath="$PROJECT_DIR$/header/PuntoLejano.h" afterPath="$PROJECT_DIR$/include/PuntoLejano.h" />
-      <change beforePath="$PROJECT_DIR$/header/PuntosLejanosDB.h" afterPath="$PROJECT_DIR$/include/PuntosLejanosDB.h" />
-      <change beforePath="$PROJECT_DIR$/header/Serializer.h" afterPath="$PROJECT_DIR$/include/Serializer.h" />
-      <change beforePath="$PROJECT_DIR$/header/Sim3Solver.h" afterPath="$PROJECT_DIR$/include/Sim3Solver.h" />
-      <change beforePath="$PROJECT_DIR$/header/System.h" afterPath="$PROJECT_DIR$/include/System.h" />
-      <change beforePath="$PROJECT_DIR$/header/Tracking.h" afterPath="$PROJECT_DIR$/include/Tracking.h" />
-      <change beforePath="$PROJECT_DIR$/header/Video.h" afterPath="$PROJECT_DIR$/include/Video.h" />
-      <change beforePath="$PROJECT_DIR$/header/Viewer.h" afterPath="$PROJECT_DIR$/include/Viewer.h" />
-      <change beforePath="$PROJECT_DIR$/lib/DBoW2/DBoW2/BowVector.cpp" afterPath="$PROJECT_DIR$/deps/DBoW2/DBoW2/BowVector.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/DBoW2/DBoW2/BowVector.h" afterPath="$PROJECT_DIR$/deps/DBoW2/DBoW2/BowVector.h" />
-      <change beforePath="$PROJECT_DIR$/lib/DBoW2/DBoW2/FClass.h" afterPath="$PROJECT_DIR$/deps/DBoW2/DBoW2/FClass.h" />
-      <change beforePath="$PROJECT_DIR$/lib/DBoW2/DBoW2/FORB.cpp" afterPath="$PROJECT_DIR$/deps/DBoW2/DBoW2/FORB.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/DBoW2/DBoW2/FORB.h" afterPath="$PROJECT_DIR$/deps/DBoW2/DBoW2/FORB.h" />
-      <change beforePath="$PROJECT_DIR$/lib/DBoW2/DBoW2/FeatureVector.cpp" afterPath="$PROJECT_DIR$/deps/DBoW2/DBoW2/FeatureVector.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/DBoW2/DBoW2/FeatureVector.h" afterPath="$PROJECT_DIR$/deps/DBoW2/DBoW2/FeatureVector.h" />
-      <change beforePath="$PROJECT_DIR$/lib/DBoW2/DBoW2/ScoringObject.cpp" afterPath="$PROJECT_DIR$/deps/DBoW2/DBoW2/ScoringObject.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/DBoW2/DBoW2/ScoringObject.h" afterPath="$PROJECT_DIR$/deps/DBoW2/DBoW2/ScoringObject.h" />
-      <change beforePath="$PROJECT_DIR$/lib/DBoW2/DBoW2/TemplatedVocabulary.h" afterPath="$PROJECT_DIR$/deps/DBoW2/DBoW2/TemplatedVocabulary.h" />
-      <change beforePath="$PROJECT_DIR$/lib/DBoW2/DUtils/Random.cpp" afterPath="$PROJECT_DIR$/deps/DBoW2/DUtils/Random.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/DBoW2/DUtils/Random.h" afterPath="$PROJECT_DIR$/deps/DBoW2/DUtils/Random.h" />
-      <change beforePath="$PROJECT_DIR$/lib/DBoW2/DUtils/Timestamp.cpp" afterPath="$PROJECT_DIR$/deps/DBoW2/DUtils/Timestamp.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/DBoW2/DUtils/Timestamp.h" afterPath="$PROJECT_DIR$/deps/DBoW2/DUtils/Timestamp.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/config.h" afterPath="$PROJECT_DIR$/deps/g2o/config.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/base_binary_edge.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/base_binary_edge.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/base_binary_edge.hpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/base_binary_edge.hpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/base_edge.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/base_edge.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/base_multi_edge.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/base_multi_edge.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/base_multi_edge.hpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/base_multi_edge.hpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/base_unary_edge.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/base_unary_edge.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/base_unary_edge.hpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/base_unary_edge.hpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/base_vertex.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/base_vertex.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/base_vertex.hpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/base_vertex.hpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/batch_stats.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/batch_stats.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/batch_stats.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/batch_stats.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/block_solver.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/block_solver.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/block_solver.hpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/block_solver.hpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/cache.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/cache.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/cache.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/cache.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/creators.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/creators.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/eigen_types.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/eigen_types.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/estimate_propagator.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/estimate_propagator.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/estimate_propagator.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/estimate_propagator.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/factory.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/factory.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/factory.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/factory.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/hyper_dijkstra.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/hyper_dijkstra.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/hyper_dijkstra.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/hyper_dijkstra.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/hyper_graph.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/hyper_graph.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/hyper_graph.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/hyper_graph.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/hyper_graph_action.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/hyper_graph_action.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/hyper_graph_action.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/hyper_graph_action.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/jacobian_workspace.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/jacobian_workspace.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/jacobian_workspace.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/jacobian_workspace.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/linear_solver.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/linear_solver.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/marginal_covariance_cholesky.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/marginal_covariance_cholesky.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/marginal_covariance_cholesky.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/marginal_covariance_cholesky.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/matrix_operations.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/matrix_operations.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/matrix_structure.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/matrix_structure.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/matrix_structure.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/matrix_structure.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/openmp_mutex.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/openmp_mutex.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/optimizable_graph.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/optimizable_graph.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/optimizable_graph.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/optimizable_graph.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/optimization_algorithm.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/optimization_algorithm.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/optimization_algorithm.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/optimization_algorithm.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/optimization_algorithm_dogleg.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/optimization_algorithm_dogleg.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/optimization_algorithm_dogleg.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/optimization_algorithm_dogleg.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/optimization_algorithm_factory.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/optimization_algorithm_factory.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/optimization_algorithm_factory.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/optimization_algorithm_factory.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/optimization_algorithm_gauss_newton.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/optimization_algorithm_gauss_newton.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/optimization_algorithm_gauss_newton.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/optimization_algorithm_gauss_newton.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/optimization_algorithm_levenberg.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/optimization_algorithm_levenberg.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/optimization_algorithm_levenberg.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/optimization_algorithm_levenberg.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/optimization_algorithm_property.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/optimization_algorithm_property.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/optimization_algorithm_with_hessian.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/optimization_algorithm_with_hessian.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/optimization_algorithm_with_hessian.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/optimization_algorithm_with_hessian.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/parameter.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/parameter.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/parameter.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/parameter.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/parameter_container.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/parameter_container.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/parameter_container.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/parameter_container.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/robust_kernel.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/robust_kernel.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/robust_kernel.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/robust_kernel.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/robust_kernel_factory.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/robust_kernel_factory.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/robust_kernel_factory.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/robust_kernel_factory.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/robust_kernel_impl.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/robust_kernel_impl.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/robust_kernel_impl.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/robust_kernel_impl.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/solver.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/solver.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/solver.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/solver.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/sparse_block_matrix.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/sparse_block_matrix.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/sparse_block_matrix.hpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/sparse_block_matrix.hpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/sparse_block_matrix_ccs.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/sparse_block_matrix_ccs.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/sparse_block_matrix_diagonal.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/sparse_block_matrix_diagonal.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/sparse_optimizer.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/sparse_optimizer.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/core/sparse_optimizer.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/core/sparse_optimizer.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/solvers/linear_solver_dense.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/solvers/linear_solver_dense.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/solvers/linear_solver_eigen.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/solvers/linear_solver_eigen.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/stuff/color_macros.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/stuff/color_macros.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/stuff/macros.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/stuff/macros.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/stuff/misc.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/stuff/misc.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/stuff/os_specific.c" afterPath="$PROJECT_DIR$/deps/g2o/g2o/stuff/os_specific.c" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/stuff/os_specific.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/stuff/os_specific.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/stuff/property.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/stuff/property.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/stuff/property.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/stuff/property.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/stuff/string_tools.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/stuff/string_tools.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/stuff/string_tools.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/stuff/string_tools.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/stuff/timeutil.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/stuff/timeutil.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/stuff/timeutil.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/stuff/timeutil.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/types/se3_ops.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/types/se3_ops.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/types/se3_ops.hpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/types/se3_ops.hpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/types/se3quat.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/types/se3quat.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/types/sim3.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/types/sim3.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/types/types_sba.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/types/types_sba.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/types/types_sba.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/types/types_sba.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/types/types_seven_dof_expmap.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/types/types_seven_dof_expmap.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/types/types_seven_dof_expmap.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/types/types_seven_dof_expmap.h" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/types/types_six_dof_expmap.cpp" afterPath="$PROJECT_DIR$/deps/g2o/g2o/types/types_six_dof_expmap.cpp" />
-      <change beforePath="$PROJECT_DIR$/lib/g2o/g2o/types/types_six_dof_expmap.h" afterPath="$PROJECT_DIR$/deps/g2o/g2o/types/types_six_dof_expmap.h" />
-      <change beforePath="$PROJECT_DIR$/src/Converter.cc" afterPath="$PROJECT_DIR$/src/Converter.cc" />
-      <change beforePath="$PROJECT_DIR$/src/Frame.cc" afterPath="$PROJECT_DIR$/src/Frame.cc" />
-      <change beforePath="$PROJECT_DIR$/src/FrameDrawer.cc" afterPath="$PROJECT_DIR$/src/FrameDrawer.cc" />
-      <change beforePath="$PROJECT_DIR$/src/Initializer.cc" afterPath="$PROJECT_DIR$/src/Initializer.cc" />
-      <change beforePath="$PROJECT_DIR$/src/KeyFrame.cc" afterPath="$PROJECT_DIR$/src/KeyFrame.cc" />
-      <change beforePath="$PROJECT_DIR$/src/KeyFrameDatabase.cc" afterPath="$PROJECT_DIR$/src/KeyFrameDatabase.cc" />
-      <change beforePath="$PROJECT_DIR$/src/KeyFrameTriangulacion.cc" afterPath="$PROJECT_DIR$/src/KeyFrameTriangulacion.cc" />
-      <change beforePath="$PROJECT_DIR$/src/LocalMapping.cc" afterPath="$PROJECT_DIR$/src/LocalMapping.cc" />
-      <change beforePath="$PROJECT_DIR$/src/LoopClosing.cc" afterPath="$PROJECT_DIR$/src/LoopClosing.cc" />
-      <change beforePath="$PROJECT_DIR$/src/Map.cc" afterPath="$PROJECT_DIR$/src/Map.cc" />
-      <change beforePath="$PROJECT_DIR$/src/MapDrawer.cc" afterPath="$PROJECT_DIR$/src/MapDrawer.cc" />
-      <change beforePath="$PROJECT_DIR$/src/MapPoint.cc" afterPath="$PROJECT_DIR$/src/MapPoint.cc" />
-      <change beforePath="$PROJECT_DIR$/src/ORBextractor.cc" afterPath="$PROJECT_DIR$/src/ORBextractor.cc" />
-      <change beforePath="$PROJECT_DIR$/src/ORBmatcher.cc" afterPath="$PROJECT_DIR$/src/ORBmatcher.cc" />
-      <change beforePath="$PROJECT_DIR$/src/Optimizer.cc" afterPath="$PROJECT_DIR$/src/Optimizer.cc" />
-      <change beforePath="$PROJECT_DIR$/src/PnPsolver.cc" afterPath="$PROJECT_DIR$/src/PnPsolver.cc" />
-      <change beforePath="$PROJECT_DIR$/src/PuntoLejano.cc" afterPath="$PROJECT_DIR$/src/PuntoLejano.cc" />
-      <change beforePath="$PROJECT_DIR$/src/PuntosLejanosDB.cc" afterPath="$PROJECT_DIR$/src/PuntosLejanosDB.cc" />
-      <change beforePath="$PROJECT_DIR$/src/Serializer.cpp" afterPath="$PROJECT_DIR$/src/Serializer.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/Sim3Solver.cc" afterPath="$PROJECT_DIR$/src/Sim3Solver.cc" />
-      <change beforePath="$PROJECT_DIR$/src/System.cc" afterPath="$PROJECT_DIR$/src/System.cc" />
-      <change beforePath="$PROJECT_DIR$/src/Tracking.cc" afterPath="$PROJECT_DIR$/src/Tracking.cc" />
-      <change beforePath="$PROJECT_DIR$/src/Video.cpp" afterPath="$PROJECT_DIR$/src/Video.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/Viewer.cc" afterPath="$PROJECT_DIR$/src/Viewer.cc" />
-      <change beforePath="$PROJECT_DIR$/src/main.cc" afterPath="$PROJECT_DIR$/src/main.cc" />
+      <change beforePath="$PROJECT_DIR$/include/Converter.h" afterPath="$PROJECT_DIR$/include/Converter.h" />
+      <change beforePath="$PROJECT_DIR$/include/Frame.h" afterPath="$PROJECT_DIR$/include/Frame.h" />
+      <change beforePath="$PROJECT_DIR$/include/FrameDrawer.h" afterPath="$PROJECT_DIR$/include/FrameDrawer.h" />
+      <change beforePath="$PROJECT_DIR$/include/Initializer.h" afterPath="$PROJECT_DIR$/include/Initializer.h" />
+      <change beforePath="$PROJECT_DIR$/include/KeyFrame.h" afterPath="$PROJECT_DIR$/include/KeyFrame.h" />
+      <change beforePath="$PROJECT_DIR$/include/KeyFrameDatabase.h" afterPath="$PROJECT_DIR$/include/KeyFrameDatabase.h" />
+      <change beforePath="$PROJECT_DIR$/include/KeyFrameTriangulacion.h" afterPath="$PROJECT_DIR$/include/KeyFrameTriangulacion.h" />
+      <change beforePath="$PROJECT_DIR$/include/LocalMapping.h" afterPath="$PROJECT_DIR$/include/LocalMapping.h" />
+      <change beforePath="$PROJECT_DIR$/include/LoopClosing.h" afterPath="$PROJECT_DIR$/include/LoopClosing.h" />
+      <change beforePath="$PROJECT_DIR$/include/Map.h" afterPath="$PROJECT_DIR$/include/Map.h" />
+      <change beforePath="$PROJECT_DIR$/include/MapDrawer.h" afterPath="$PROJECT_DIR$/include/MapDrawer.h" />
+      <change beforePath="$PROJECT_DIR$/include/MapPoint.h" afterPath="$PROJECT_DIR$/include/MapPoint.h" />
+      <change beforePath="$PROJECT_DIR$/include/ORBVocabulary.h" afterPath="$PROJECT_DIR$/include/ORBVocabulary.h" />
+      <change beforePath="$PROJECT_DIR$/include/ORBextractor.h" afterPath="$PROJECT_DIR$/include/ORBextractor.h" />
+      <change beforePath="$PROJECT_DIR$/include/ORBmatcher.h" afterPath="$PROJECT_DIR$/include/ORBmatcher.h" />
+      <change beforePath="$PROJECT_DIR$/include/Optimizer.h" afterPath="$PROJECT_DIR$/include/Optimizer.h" />
+      <change beforePath="$PROJECT_DIR$/include/PnPsolver.h" afterPath="$PROJECT_DIR$/include/PnPsolver.h" />
+      <change beforePath="$PROJECT_DIR$/include/PuntoLejano.h" afterPath="$PROJECT_DIR$/include/PuntoLejano.h" />
+      <change beforePath="$PROJECT_DIR$/include/PuntosLejanosDB.h" afterPath="$PROJECT_DIR$/include/PuntosLejanosDB.h" />
+      <change beforePath="$PROJECT_DIR$/include/Serializer.h" afterPath="$PROJECT_DIR$/include/Serializer.h" />
+      <change beforePath="$PROJECT_DIR$/include/Sim3Solver.h" afterPath="$PROJECT_DIR$/include/Sim3Solver.h" />
+      <change beforePath="$PROJECT_DIR$/include/System.h" afterPath="$PROJECT_DIR$/include/System.h" />
+      <change beforePath="$PROJECT_DIR$/include/Tracking.h" afterPath="$PROJECT_DIR$/include/Tracking.h" />
+      <change beforePath="$PROJECT_DIR$/include/Viewer.h" afterPath="$PROJECT_DIR$/include/Viewer.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -184,30 +49,8 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Video.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Video.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#1#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Viewer.cc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Viewer.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PnPsolver.cc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PnPsolver.cc">
+      <file leaf-file-name="ORBVocabulary.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/ORBVocabulary.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -216,8 +59,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PuntoLejano.cc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PuntoLejano.cc">
+      <file leaf-file-name="PnPsolver.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/PnPsolver.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -226,8 +69,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PuntosLejanosDB.cc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PuntosLejanosDB.cc">
+      <file leaf-file-name="PuntoLejano.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/PuntoLejano.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-737">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PuntosLejanosDB.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/PuntosLejanosDB.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -236,8 +89,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Serializer.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Serializer.cpp">
+      <file leaf-file-name="Serializer.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/Serializer.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1140">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sim3Solver.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/Sim3Solver.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -246,8 +109,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sim3Solver.cc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sim3Solver.cc">
+      <file leaf-file-name="System.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/System.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2640">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tracking.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/Tracking.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -256,31 +129,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="System.cc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/System.cc">
+      <file leaf-file-name="Video.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/Video.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="740">
+              <caret line="37" column="11" lean-forward="false" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tracking.cc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tracking.cc">
+      <file leaf-file-name="Viewer.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/include/Viewer.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ORBmatcher.cc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ORBmatcher.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-3320">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -327,6 +190,30 @@
         <option value="$PROJECT_DIR$/src/Tracking.cc" />
         <option value="$PROJECT_DIR$/src/Viewer.cc" />
         <option value="$PROJECT_DIR$/src/Video.cpp" />
+        <option value="$PROJECT_DIR$/include/Converter.h" />
+        <option value="$PROJECT_DIR$/include/Frame.h" />
+        <option value="$PROJECT_DIR$/include/FrameDrawer.h" />
+        <option value="$PROJECT_DIR$/include/Initializer.h" />
+        <option value="$PROJECT_DIR$/include/KeyFrame.h" />
+        <option value="$PROJECT_DIR$/include/KeyFrameDatabase.h" />
+        <option value="$PROJECT_DIR$/include/KeyFrameTriangulacion.h" />
+        <option value="$PROJECT_DIR$/include/LocalMapping.h" />
+        <option value="$PROJECT_DIR$/include/LoopClosing.h" />
+        <option value="$PROJECT_DIR$/include/Map.h" />
+        <option value="$PROJECT_DIR$/include/MapDrawer.h" />
+        <option value="$PROJECT_DIR$/include/MapPoint.h" />
+        <option value="$PROJECT_DIR$/include/Optimizer.h" />
+        <option value="$PROJECT_DIR$/include/ORBextractor.h" />
+        <option value="$PROJECT_DIR$/include/ORBmatcher.h" />
+        <option value="$PROJECT_DIR$/include/ORBVocabulary.h" />
+        <option value="$PROJECT_DIR$/include/PnPsolver.h" />
+        <option value="$PROJECT_DIR$/include/PuntoLejano.h" />
+        <option value="$PROJECT_DIR$/include/PuntosLejanosDB.h" />
+        <option value="$PROJECT_DIR$/include/Serializer.h" />
+        <option value="$PROJECT_DIR$/include/Sim3Solver.h" />
+        <option value="$PROJECT_DIR$/include/System.h" />
+        <option value="$PROJECT_DIR$/include/Tracking.h" />
+        <option value="$PROJECT_DIR$/include/Viewer.h" />
       </list>
     </option>
   </component>
@@ -438,12 +325,12 @@
       <option name="presentableId" value="Default" />
       <updated>1532002422132</updated>
       <workItem from="1532002423508" duration="241000" />
-      <workItem from="1532016025374" duration="1013000" />
+      <workItem from="1532016025374" duration="1197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1254000" />
+    <option name="totallyTimeSpent" value="1438000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -479,64 +366,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Video.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ORBextractor.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PnPsolver.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4800">
-          <caret line="240" column="0" lean-forward="true" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PuntoLejano.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PuntosLejanosDB.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Converter.cc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-540">
@@ -549,22 +378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/Converter.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/Video.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="37" column="11" lean-forward="false" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -758,8 +571,208 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1#19#0" expanded="true" />
+            <element signature="e#1#19#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Converter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Frame.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/FrameDrawer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Initializer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/KeyFrame.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/KeyFrameDatabase.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/KeyFrameTriangulacion.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-640">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/LocalMapping.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/LoopClosing.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Map.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/MapDrawer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/MapPoint.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Optimizer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/ORBextractor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/ORBmatcher.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/ORBVocabulary.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/PnPsolver.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/PuntoLejano.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-737">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/PuntosLejanosDB.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Serializer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1140">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Sim3Solver.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/System.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2640">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Tracking.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Video.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="37" column="11" lean-forward="false" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Viewer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3320">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,9 +1,4 @@
-/*
- * PuntoLejano.h
- *
- *  Created on: 10/2/2017
- *      Author: alejandro
- */
+
 
 #ifndef PUNTOLEJANO_H_
 #define PUNTOLEJANO_H_

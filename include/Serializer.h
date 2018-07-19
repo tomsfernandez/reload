@@ -1,9 +1,3 @@
-/*
- * Serializer.h
- *
- *  Created on: 6/1/2017
- *      Author: alejandro
- */
 
 #ifndef SERIALIZER_H_
 #define SERIALIZER_H_

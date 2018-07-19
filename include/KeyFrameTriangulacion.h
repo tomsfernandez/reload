@@ -8,46 +8,7 @@
 using namespace cv;
 namespace ORB_SLAM2{
 
-/**
- * Clase para triangulación de rayos.
- *
- * La triangulación de puntos se hace para crear nuevos puntos 3D, a partir de sus vistas desde dos keyframes.
- *
- * Esta clase reúne los métodos que se aplica a cada keyframe, para simplificar el código y evitar la repitencia.
- *
- * Además guarda cálculos intermedios que se utilizan en pasos siguientes.
- *
- * Contiene también código para la triangulación, que requiere dos objetos de éstos.
- *
- * Esta clase se construye tomando los datos del keyframe paredro (pasado como argumento),
- * para evitar las consecuencias de que otros hilos los cambien durante la operación.
- *
- * Algunos métodos buscan datos inmutables en el keyframe.
- *
- * La secuencia de uso es la siguiente:
- *
- * 1. KeyFrameTriangulacion::KeyFrameTriangulacion: Construcción de este objeto, tomando datos de pose y calibración para asegurar su inmutabilidad
- * 2. KeyFrameTriangulacion::rayo inicializa parámetros de cálculos intermedios, necesarios en los métodos que siguen.
- * 3. KeyFrameTriangulacion::triangular devuelve el punto triangulado por SVD
- * 4. KeyFrameTriangulacion::coorddenadaZ calcula y recuerda la distancia del punto sobre el eje z.  Necesario para calcular el error de reproyección.
- * 4. KeyFrameTriangulacion::validarErrorReproyección decide si el error es aceptable.
- * 5. KeyFrameTriangulacion::errorReproyección calcula el error, invocado por el anterior.
- *
- *
- *
- * Otra forma de uso, más completa, que construye dos objetos para triangularlos:
- *
- * 1. KeyFrameTriangulacion::KeyFrameTriangulacion: construye un objeto a partir de un keyframe.
- * 2. KeyFrameTriangulacion::setKeyFrame2: construye el segundo objeto, en la propiedad kft2.
- * 3. KeyFrameTriangulacion::setKeyPoint: determina el punto singular del keyframe de este objeto
- * 4. KeyFrameTriangulacion::setKeyPoint2: determina el punto singular del keyframe del otro objeto, kft2
- * 5. KeyFrameTriangulacion:: triangular: realiza toda la triangulación, presentando los resultados en propiedades
- *
- * Esta clase y sus métodos son usados en:
- * - LocalMapping::CreateNewMapPoints
- * - MapPoint::AddObservation
- *
- */
+
 class KeyFrameTriangulacion{
 public:
     // Propiedades efímeras, usadas durante la triangulación, y su mutex
