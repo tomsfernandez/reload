@@ -32,7 +32,7 @@ int main(int argc, char **argv){
 
     char* rutaConfiguracion = NULL;
     char* rutaVideo = NULL;
-	char archivoConfiguracionWebcamPorDefecto[] = "/home/toams/reload/resources/webcam.yaml";	// Configuración por defecto, para webcam.
+	char archivoConfiguracionWebcamPorDefecto[] = "/home/toams/reload/resources/myWebcam.yml";	// Configuración por defecto, para webcam.
 
 	switch(argc){
 	case 1:	// Sin argumentos, webcam por defecto y webcam.yaml como configuración
