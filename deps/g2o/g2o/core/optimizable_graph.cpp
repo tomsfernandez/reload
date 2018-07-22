@@ -32,7 +32,7 @@
 #include <fstream>
 #include <algorithm>
 
-#include <eigen3/Eigen/Dense>
+#include <Eigen/Dense>
 
 #include "estimate_propagator.h"
 #include "factory.h"

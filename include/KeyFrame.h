@@ -3,8 +3,8 @@
 #ifndef KEYFRAME_H
 #define KEYFRAME_H
 
-#include "../Thirdparty/DBoW2/DBoW2/BowVector.h"
-#include "../Thirdparty/DBoW2/DBoW2/FeatureVector.h"
+#include "../deps/DBoW2/DBoW2/BowVector.h"
+#include "../deps/DBoW2/DBoW2/FeatureVector.h"
 #include "ORBVocabulary.h"
 #include "KeyFrameDatabase.h"
 #include "Serializer.h"

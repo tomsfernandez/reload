@@ -4,7 +4,7 @@
 
 #include "Frame.h"
 #include "KeyFrame.h"
-#include "../Thirdparty/DBoW2/DBoW2/BowVector.h"
+#include "../deps/DBoW2/DBoW2/BowVector.h"
 
 #include<mutex>
 
