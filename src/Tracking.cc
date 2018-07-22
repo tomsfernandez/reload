@@ -1124,7 +1124,7 @@ void Tracking::Reset()
 
     // Reset Loop Closing
     cout << "Reseting Loop Closing...";
-    mpLoopClosing->RequestReset();	// Espera hasta confirmar el reseteo
+   // mpLoopClosing->RequestReset();	// Espera hasta confirmar el reseteo
     cout << " done" << endl;
 
     // Clear BoW Database
