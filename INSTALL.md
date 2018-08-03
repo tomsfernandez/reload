@@ -57,6 +57,7 @@ Desde el root del proyecto
 sudo pip install conan
 mkdir build
 cd build
+conan remote add bincrafters https://api.bintray.com/conan/bincrafters/public-conan
 conan install ..
 ```
 
