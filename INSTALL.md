@@ -54,11 +54,12 @@ $ cmake --build .
 ## Instalación del resto de las dependencias mediante Conan
 Desde el root del proyecto
 ```Shell
-sudo pip install conan
-mkdir build
-cd build
-conan remote add bincrafters https://api.bintray.com/conan/bincrafters/public-conan
-conan install ..
+$ sudo apt install python-pip
+$ sudo pip install conan
+$ mkdir build
+$ cd build
+$ conan remote add bincrafters https://api.bintray.com/conan/bincrafters/public-conan
+$ conan install ..
 ```
 
 ## Instalación de DBoW2
@@ -79,6 +80,7 @@ $ cd deps
 $ cd g2o
 $ mkdir build
 $ cd build
+$ conan install ..
 $ cmake .. 
 $ make -j2
 ```
