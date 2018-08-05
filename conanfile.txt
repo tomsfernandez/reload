@@ -2,6 +2,7 @@
 eigen/3.3.4@conan/stable
 gtest/1.8.0@bincrafters/stable
 boost_serialization/1.66.0@bincrafters/stable
+jsonformoderncpp/3.1.2@vthiery/stable
 
 [options]
 boost:shared=true

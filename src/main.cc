@@ -18,7 +18,9 @@
 #include <Serializer.h>
 #include <Video.h>
 
+#include <nlohmann/json.hpp>
 
+using nlohmann::json;
 using namespace std;
 
 ORB_SLAM2::System *Sistema;
@@ -30,13 +32,15 @@ int main(int argc, char **argv){
 
     // Parámetros de la línea de comando
 
-    char* rutaConfiguracion = NULL;
+	std::ifstream ifs("/home/reload/reload/app.settings.json");
+	json configuration = json::parse(ifs);
+
     char* rutaVideo = NULL;
-	char archivoConfiguracionWebcamPorDefecto[] = "/home/toams/reload/resources/myWebcam.yml";	// Configuración por defecto, para webcam.
+    string rutaConfiguracion = configuration["webcam"];	// Configuración por defecto, para webcam.
 
 	switch(argc){
 	case 1:	// Sin argumentos, webcam por defecto y webcam.yaml como configuración
-		rutaConfiguracion = archivoConfiguracionWebcamPorDefecto;
+		rutaConfiguracion = configuration["webcam"];
 		cout << "Sin argumentos, webcam con esta configuración: " << rutaConfiguracion << endl;
 		break;
 
@@ -55,7 +59,7 @@ int main(int argc, char **argv){
 
 	// Inicializa el sistema SLAM.
     // Mi versión de archivo binario con el vocabulario, que carga mucho más rápido porque evita el análisis sintáctico.
-    ORB_SLAM2::System SLAM("/home/toams/reload/resources/orbVoc.bin", rutaConfiguracion,ORB_SLAM2::System::MONOCULAR,true);
+    ORB_SLAM2::System SLAM(configuration["vocabulary"], rutaConfiguracion,ORB_SLAM2::System::MONOCULAR,true);
 
     // Puntero global al sistema singleton
     Sistema = &SLAM;
@@ -79,9 +83,6 @@ int main(int argc, char **argv){
 		video.abrirCamara();
 		visor->setDuracion();
 	}
-
-
-
 
     while(true){
 
@@ -211,7 +212,7 @@ int main(int argc, char **argv){
     	if(visor->abrirCamara){
     		visor->abrirCamara = false;
     		video.abrirCamara();
-    		Sistema->mpTracker->ChangeCalibration(archivoConfiguracionWebcamPorDefecto);//"webcan.yaml");
+    		Sistema->mpTracker->ChangeCalibration(rutaConfiguracion);//"webcan.yaml");
     	}
 
     	/*
