@@ -1,4 +1,4 @@
 {
-    "webcam": "/home/reload/reload/resources/myWebcam.yml",
-    "vocabulary": "/home/reload/reload/resources/orbVoc.bin"
+    "webcam": "resources/myWebcam.yml",
+    "vocabulary": "resources/orbVoc.bin"
 }

@@ -55,8 +55,6 @@ include_directories(
         ${Pangolin_INCLUDE_DIRS}
         )
 
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/lib)
-
 add_library(${PROJECT_NAME} SHARED
         src/main.cc
         src/PuntoLejano.cc
@@ -100,7 +98,10 @@ target_link_libraries(
         ${CONAN_LIBS}
         )
 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/build)
+file(COPY ${PROJECT_SOURCE_DIR}/resources DESTINATION ${CMAKE_BINARY_DIR}/bin)
+file(COPY ${PROJECT_SOURCE_DIR}/app.settings.json DESTINATION ${CMAKE_BINARY_DIR}/bin)
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR})
 
 add_executable(reload src/main.cc)
 target_link_libraries(reload ${PROJECT_NAME})

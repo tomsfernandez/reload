@@ -32,7 +32,7 @@ int main(int argc, char **argv){
 
     // Parámetros de la línea de comando
 
-	std::ifstream ifs("/home/reload/reload/app.settings.json");
+	std::ifstream ifs("app.settings.json");
 	json configuration = json::parse(ifs);
 
     char* rutaVideo = NULL;
